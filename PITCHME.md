@@ -1,4 +1,4 @@
-### International Image Interoperability Framework (IIIF)  
+### Prototyping with the International Image Interoperability Framework (IIIF)  
 
 Terry Brady
 

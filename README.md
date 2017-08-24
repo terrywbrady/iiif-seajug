@@ -1,4 +1,4 @@
-# International Image Interoperability Framework (IIIF)
+# Prototyping with the International Image Interoperability Framework (IIIF)
 
 ## Slides
 * [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/terrywbrady/iiif-seaJug)
