@@ -14,6 +14,7 @@ This presentation will include a live demonstration of the configuration of a II
 Using an online "manifest" editor, we will use the IIIF presentation api to assemble a collection of images into a navigable image collection and demonstrate how this manifest can be rendered in a number of viewer applications.  
 
 ## Bio
+![](https://goo.gl/photos/BZSSBz9du5vcDWZx6)
 Terry Brady is a software developer in Seattle working for the Georgetown University Library. Terry is a committer for the [DSpace](dspace.org) repository platform. Terry has built applications for higher education, government, non-profit, and corporate institutions including LexisNexis and the National Archives and Records Administration.
 
 https://github.com/terrywbrady/info
