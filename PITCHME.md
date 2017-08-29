@@ -10,15 +10,18 @@ https://github.com/terrywbrady/info
 
 +++
 
-## My Background
+## My Background - Georgetown
 
 ![Digital Georgetown Institutional Repository](https://repository.library.georgetown.edu/themes/ir//images/ir-logo.png)
 * Applications Programmer Analyst for the Georgetown University Library
   * Lead developer for [DigitalGeorgetown](https://repository.library.georgetown.edu)
-* Prior to Georgetown
-  * LexisNexis, National Archives and Records Administration
-  * Developed software for corporations, non-profits, government and higher education
-  * Java developer since 1999
++++
+
+## My Background - Prior to Georgetown
+* LexisNexis: Metadata Management and Publishing Systems
+* National Archives and Records Administration: Digitization Systems
+* Developed software for corporations, non-profits, government and higher education
+* Java developer since 1999
 
 +++
 
