@@ -10,6 +10,18 @@ https://github.com/terrywbrady/info
 
 +++
 
+## My Background
+
+![Digital Georgetown Institutional Repository](https://repository.library.georgetown.edu/themes/ir//images/ir-logo.png)
+* Applications Programmer Analyst for the Georgetown University Library
+  * Lead developer for [DigitalGeorgetown](https://repository.library.georgetown.edu)
+* Prior to Georgetown
+  * LexisNexis, National Archives and Records Administration
+  * Developed software for corporations, non-profits, government and higher education
+  * Java developer since 1999
+
++++
+
 ## IIIF: International Image Interoperability Framework
 
 ![IIIF Icon](https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png)
@@ -28,14 +40,11 @@ http://iiif.io/technical-details/
 
 +++
 
-## My Background
+## Digital Georgetown and IIIF
 
-![Digital Georgetown Institutional Repository](https://repository.library.georgetown.edu/themes/ir//images/ir-logo.png)
-
-* Lead developer for [DigitalGeorgetown](https://repository.library.georgetown.edu)
 * DigitalGeorgetown showcases unique digital collections and digitized assets from the Georgetown University Library
 * The IIIF Protocol promises to solve a number of challenges for our repository
-* I am an enthusiastic user of IIIF - not a contributor to the standard
+* We are enthusiastic users of IIIF - not a contributor to the standard
 
 +++
 
