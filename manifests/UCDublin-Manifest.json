@@ -6,7 +6,7 @@
 	"metadata": [],
 	"description": "Demonstration of the creation of a IIIF Manifest",
 	"license": "https://creativecommons.org/licenses/by/3.0/",
-	"attribution": "[Click to edit attribution]",
+	"attribution": "Sample manifest referenced in the following presentation: https://github.com/terrywbrady/iiif-seajug",
 	"sequences": [
 		{
 			"@id": "http://44fa6cd7-164c-4a3b-9d19-3ce2aa6758a7",

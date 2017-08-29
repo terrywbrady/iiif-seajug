@@ -100,6 +100,34 @@ http://iiif.io/technical-details/
 
 ## IIIF Presentation API
 
+http://iiif.io/api/presentation/2.1/
+
+A collection of images can be assembled and documented in a "manifest".  
+
+IIIF viewers render the contents of a manifest.
+
++++
+
+## IIIF Manifest Editor
+
+http://iiif.bodleian.ox.ac.uk/manifest-editor/#/?_k=ejb3xc
+
++++
+
+## Sample Manifest
+
+* https://github.com/terrywbrady/iiif-seajug/blob/master/manifests/UCDublin-Manifest.json
+* https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json
+
+---
+
+## IIIF Viewers
+
+* [Universal Viewer](http://universalviewer.io)
+  * If you do not supply a manifest, it randomly finds one to show off
+  * [Universal Viewer with Our Sample Manifest](http://universalviewer.io/uv.html?manifest=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json)
+* [Mirador](http://projectmirador.org/)
+
 ---
 
 ## Demo - Configuring an Image Server
