@@ -53,8 +53,10 @@ http://iiif.io/technical-details/
 ## What is needed to use IIIF?
 
 * Images loaded into a IIIF compliant server
+  * http://iiif.io/apps-demos/#image-servers
 * Creation of a "manifest" to present these images
 * Use of a IIIF compliant viewer
+  * http://iiif.io/apps-demos/#image-viewing-clients
 * The magic is in the *interoperability* of these tools
 
 ---
@@ -142,9 +144,14 @@ Viewers with an awareness of the IIIF Standard
 * [Mirador](http://projectmirador.org)
   * [Mirador Advanced Features](http://projectmirador.org/demo/advanced_features.htm)
   * Imagine 2 institutions with fragments of a historical artifact - the viewer can join them together l)
+  
+## Other Demos
+
+http://iiif.io/apps-demos/#implementation-demos  
+  
 ---
 
-## Demo - Configuring an Image Serverer
+## Demo - Configuring an Image Server
 
 * [Cantalope](https://medusa-project.github.io/cantaloupe/)
   * Java implementation of an image server
@@ -172,17 +179,42 @@ Viewers with an awareness of the IIIF Standard
 * https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily3.jpg
 
 +++ 
-## IIIF Image Server
 
-+++ 
-## Load Image 1
+## Demo Tasks
+* Install Cantaloupe
+* Configure Cantaloupe to use an HttpResolver pointing at my github repo
+* Open server landing page
+* Open an image
+  * /iiif/2/lily1.jpg/info.json
+  * /iiif/2/lily1.jpg/full/full/0/default.jpg
+* Create a manifest
+* View the manifest
 
-* /iiif/2/lily1.jpg/info.json
-* /iiif/2/lily1.jpg/full/full/0/default.jpg
-* /iiif/2/lily1.jpg/full/full/10/default.jpg
-* /iiif/2/lily1.jpg/800,300,800,800/full/10/default.jpg
-* /iiif/2/lily1.jpg/800,300,800,800/200,200/0/default.jpg
+---
+
+## DigitalGeorgetown Use Cases for IIIF
+
+* Manuscript Viewing
+* High resolution image viewing
+* View a collection of related images
+* View a collection of related objects (images and documents)
+* View a collection of related objects described in an archival system
+  * Convert an [encoded archival description](https://www.loc.gov/ead/) into a manifest
 
 +++
+
+## Next Steps for DigitalGeorgetown
+
+* Choose an image server
+* Prototype a manifest builder to extract metadata from [DSpace](http://dspace.org)
+* Prototype a manifest builder to extract metadata from [ArchivesSpace](http://archivesspace.org/)
+* Determine how to deploy and manage manifest files
+* Calculate cost of hosting high-resolution images for user access
+
+---
+
+## Even More IIIF Resources
+
+* https://github.com/IIIF/awesome-iiif#tutorials
 
   
