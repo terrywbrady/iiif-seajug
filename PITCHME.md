@@ -37,6 +37,17 @@ http://iiif.io/technical-details/
 * The IIIF Protocol promises to solve a number of challenges for our repository
 * I am an enthusiastic user of IIIF - not a contributor to the standard
 
++++
+
+## Digital Repository Challenges
+
+* Provide low-resolution versions of images for low-bandwidth users
+* Provide high-resolution versions of images for interested users
+* Allow scholars to create citations to specific images or regions of images
+* Simulating browsing of digitized manuscripts
+* Provide visual navigation across a collection of items with no logical "pagination"
+* Support the side by side comparison of historical objects
+
 ---
 
 ## What is needed to use IIIF?
@@ -44,7 +55,7 @@ http://iiif.io/technical-details/
 * Images loaded into a IIIF compliant server
 * Creation of a "manifest" to present these images
 * Use of a IIIF compliant viewer
-* The magic is in the interoperability of these tools
+* The magic is in the *interoperability* of these tools
 
 ---
 

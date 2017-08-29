@@ -1,0 +1,75 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://1e6eae01-6ceb-4b56-b490-2abc48b1f9b7",
+	"@type": "sc:Manifest",
+	"label": "SeaJUG Demo",
+	"metadata": [],
+	"description": "Demonstration of the creation of a IIIF Manifest",
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://44fa6cd7-164c-4a3b-9d19-3ce2aa6758a7",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://c911011c-89d9-473b-8772-f35f9bb07b52",
+					"@type": "sc:Canvas",
+					"label": "Dublin Map from University College Dublin",
+					"height": 9092,
+					"width": 13401,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://52730e31-bee7-4b1f-a21f-1aa1b448b405",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.ucd.ie/loris/ucdlib:42220/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.ucd.ie/loris/ucdlib:42220",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"bitonal",
+												"gray"
+											],
+											"formats": [
+												"jpg",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 9092,
+								"width": 13401
+							},
+							"on": "http://c911011c-89d9-473b-8772-f35f9bb07b52"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": []
+}
