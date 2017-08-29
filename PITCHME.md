@@ -123,24 +123,53 @@ http://iiif.bodleian.ox.ac.uk/manifest-editor/#/?_k=ejb3xc
 
 ## IIIF Viewers
 
-* [Universal Viewer](http://universalviewer.io)
-  * If you do not supply a manifest, it randomly finds one to show off
-  * [Universal Viewer with Our Sample Manifest](http://universalviewer.io/uv.html?manifest=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json)
-* [Mirador](http://projectmirador.org/)
+Viewers with an awareness of the IIIF Standard
 
----
-
-## Demo - Configuring an Image Server
+* http://iiif.io/apps-demos/#image-viewing-clients
 
 +++
 
+## Universal Viewer
+
+* [Universal Viewer](http://universalviewer.io)
+  * If you do not supply a manifest, it randomly finds one to show off
+  * [Universal Viewer with Our Sample Manifest](http://universalviewer.io/uv.html?manifest=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json)
+
++++
+
+## Mirador
+
+* [Mirador](http://projectmirador.org)
+  * [Mirador Advanced Features](http://projectmirador.org/demo/advanced_features.htm)
+  * Imagine 2 institutions with fragments of a historical artifact - the viewer can join them together l)
+---
+
+## Demo - Configuring an Image Serverer
+
+* [Cantalope](https://medusa-project.github.io/cantaloupe/)
+  * Java implementation of an image server
+  * Quick an easy to configure
+  
++++
+  
+## Cantaloupe - Location of Source Images
+
+* Images are located with an "Image Resolver"
+  * File System
+  * Http Server 
+  * JDBC
+  * Amazon Storage
+  * Azure Storage
+* Configurable logic via the *delegate script* (Ruby)
+
++++ 
+
 ## Sample Images
 
-https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg
-
-https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily2.jpg
-
-https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily3.jpg
+* https://github.com/terrywbrady/iiif-seajug/tree/master/sample-images
+* https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg
+* https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily2.jpg
+* https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily3.jpg
 
 +++ 
 ## IIIF Image Server
