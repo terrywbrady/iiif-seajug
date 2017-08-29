@@ -13,7 +13,7 @@ https://github.com/terrywbrady/info
 ## IIIF: International Image Interoperability Framework
 
 ![IIIF Icon](https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png)
-* http://iiif.io
+* [http://iiif.io](http://iiif.io)
 
 +++
 
