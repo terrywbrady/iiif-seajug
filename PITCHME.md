@@ -74,18 +74,17 @@ http://iiif.io/technical-details/
 ---
 
 ## IIIF Image API
-
-* Map of Dublin (36 MB)
+* Map of Dublin (36 MB) |
   * https://iiif.ucd.ie/loris/ucdlib:42220/full/full/0/default.jpg
-  * 13401 x 9092
+  * 13401 x 9092 |
 * IIIF Metadata for Image |
   * https://iiif.ucd.ie/loris/ucdlib:42220/info.json
 +++
 
 ## IIIF Image API - Sampling
 
-* Map of Dublin Region - Selected Region
-  * https://iiif.ucd.ie/loris/ucdlib:42220/1182,2883,3039,2741/full/0/default.jpg
+* Map of Dublin Region - Selected Region |
+  * https://iiif.ucd.ie/loris/ucdlib:42220/1182,2883,3039,2741/full/0/default.jpg |
 * Map of Dublin Scaled to 15% |
   * https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/0/default.jpg
 
