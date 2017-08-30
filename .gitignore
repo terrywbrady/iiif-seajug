@@ -1,0 +1,10 @@
+#################
+## Skip installed items
+#################
+
+install/Cantaloupe*.zip
+install/Cantaloupe*/CREDITS
+install/Cantaloupe*/*.war
+install/Cantaloupe*/LICENSE
+install/Cantaloupe*/README.md
+install/Cantaloupe*/*.sample
