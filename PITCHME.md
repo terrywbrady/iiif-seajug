@@ -34,7 +34,7 @@ https://github.com/terrywbrady/info
 
 ## 4 API's
 
-http://iiif.io/technical-details/
+[http://iiif.io/technical-details/](http://iiif.io/technical-details/)
 
 - Image API
 - Presentation API
@@ -64,11 +64,9 @@ http://iiif.io/technical-details/
 
 ## What is needed to use IIIF?
 
-- Images loaded into a IIIF compliant server
-  - http://iiif.io/apps-demos/#image-servers
+- Images loaded into a [IIIF compliant server](http://iiif.io/apps-demos/#image-servers)
 - Creation of a "manifest" to present these images
-- Use of a IIIF compliant viewer
-  - http://iiif.io/apps-demos/#image-viewing-clients
+- Use of a [IIIF compliant viewer](http://iiif.io/apps-demos/#image-viewing-clients)
 - The magic is in the *interoperability* of these tools
 
 ---
@@ -111,11 +109,14 @@ http://iiif.io/technical-details/
 ## Stanford Image Cropping Tool for IIIF compliant images
 
 - [Stanford Image Cropper](https://stanford.edu/~efisch17/iiif-tools/cropper/)
+  - Example image from University College Dublin
+    - https://iiif.ucd.ie/loris/ucdlib:45924/full/full/0/default.jpg
+    
 ---
 
 ## IIIF Presentation API
 
-http://iiif.io/api/presentation/2.1/
+[IIIF Presentation API](http://iiif.io/api/presentation/2.1/)
 
 A collection of images can be assembled and documented in a "manifest".  
 
@@ -125,14 +126,14 @@ IIIF viewers render the contents of a manifest.
 
 ## IIIF Manifest Editor
 
-http://iiif.bodleian.ox.ac.uk/manifest-editor/#/?_k=ejb3xc
+[Manifiest Editor from Oxford University](http://iiif.bodleian.ox.ac.uk/manifest-editor/#/?_k=ejb3xc)
 
 +++
 
 ## Sample Manifest
 
-- https://github.com/terrywbrady/iiif-seajug/blob/master/manifests/UCDublin-Manifest.json
-- https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json
+- [https://github.com/terrywbrady/iiif-seajug/blob/master/manifests/UCDublin-Manifest.json](https://github.com/terrywbrady/iiif-seajug/blob/master/manifests/UCDublin-Manifest.json)
+- [https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json)
 
 ---
 
@@ -140,7 +141,7 @@ http://iiif.bodleian.ox.ac.uk/manifest-editor/#/?_k=ejb3xc
 
 Viewers with an awareness of the IIIF Standard
 
-- http://iiif.io/apps-demos/#image-viewing-clients
+- [Image Viewing Clients](http://iiif.io/apps-demos/#image-viewing-clients)
 
 +++
 
@@ -160,7 +161,7 @@ Viewers with an awareness of the IIIF Standard
   
 ## Other Demos
 
-http://iiif.io/apps-demos/#implementation-demos  
+[IIIF Demos](http://iiif.io/apps-demos/#implementation-demos) 
   
 ---
 
@@ -186,10 +187,10 @@ http://iiif.io/apps-demos/#implementation-demos
 
 ## Sample Images
 
-- https://github.com/terrywbrady/iiif-seajug/tree/master/sample-images
-- https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg
-- https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily2.jpg
-- https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily3.jpg
+- [https://github.com/terrywbrady/iiif-seajug/tree/master/sample-images](https://github.com/terrywbrady/iiif-seajug/tree/master/sample-images)
+- [https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg)
+- [https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily2.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily2.jpg)
+- [https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily3.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily3.jpg)
 
 +++ 
 
@@ -228,6 +229,6 @@ http://iiif.io/apps-demos/#implementation-demos
 
 ## Even More IIIF Resources
 
-- https://github.com/IIIF/awesome-iiif#tutorials
+- [List of Awesome IIIF Resources](https://github.com/IIIF/awesome-iiif#tutorials)
 
   
