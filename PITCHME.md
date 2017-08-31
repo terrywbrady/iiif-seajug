@@ -23,7 +23,7 @@ https://github.com/terrywbrady/info
 - Developed software for corporations, non-profits, government and higher education
 - Java developer since 1999
 
-+++
+---
 
 ## IIIF: International Image Interoperability Framework
 
@@ -156,8 +156,10 @@ Viewers with an awareness of the IIIF Standard
 ## Mirador
 
 - [Mirador](http://projectmirador.org)
-  - [Mirador Advanced Features](http://projectmirador.org/demo/advanced_features.htm)
+  - [Mirador Advanced Features](http://projectmirador.org/demo/advanced_features.html)
   - Imagine 2 institutions with fragments of a historical artifact - the viewer can join them together l)
+
+---
   
 ## Other Demos
 
