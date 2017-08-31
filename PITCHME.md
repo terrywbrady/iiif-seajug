@@ -77,10 +77,10 @@ http://iiif.io/technical-details/
 _Using a map from University College Dublin rendered with IIIF..._
 
 - Map of Dublin (36 MB) 
-  - https://iiif.ucd.ie/loris/ucdlib:42220/full/full/0/default.jpg
+  - [https://iiif.ucd.ie/loris/ucdlib:42220/full/full/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/full/0/default.jpg)
   - 13401 x 9092 
 - IIIF Metadata for Image |
-  - https://iiif.ucd.ie/loris/ucdlib:42220/info.json
+  - [https://iiif.ucd.ie/loris/ucdlib:42220/info.json](https://iiif.ucd.ie/loris/ucdlib:42220/info.json)
 +++
 
 ## IIIF Image API - Sampling
