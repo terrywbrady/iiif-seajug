@@ -17,3 +17,7 @@
 .reveal img {
   border: none!important;
 }
+
+strong {
+  background-color: yellow;
+}

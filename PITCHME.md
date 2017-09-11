@@ -99,17 +99,20 @@ https://github.com/terrywbrady/info
 
 ### Components of an IIIF Image URL
 
-- /ResourcePath/Region/Size/Rotation/Quality.Format
+/ResourcePath/Region/Size/Rotation/Quality.Format
 
 +++
 
 ### Resource Path
+
+/**ResourcePath**/Region/Size/Rotation/Quality.Format
 
 - Path to an image within an image server
 
 +++
 
 ### Region
+/ResourcePath/**Region**/Size/Rotation/Quality.Format
 
 - "full"
 - x,y,w,h
@@ -120,6 +123,7 @@ https://github.com/terrywbrady/info
 +++
 
 ### Size
+/ResourcePath/Region/**Size**/Rotation/Quality.Format
 
 - "full" or "max"
 - w,
@@ -131,6 +135,7 @@ https://github.com/terrywbrady/info
 +++
 
 ### Rotation
+/ResourcePath/Region/Size/**Rotation**/Quality.Format
 
 - 0-360 (rotated)
 - !0-360 (mirrored and rotated)
@@ -138,6 +143,7 @@ https://github.com/terrywbrady/info
 +++
 
 ### Quality
+/ResourcePath/Region/Size/Rotation/**Quality**.Format
 
 - "color"
 - "gray"
@@ -147,6 +153,7 @@ https://github.com/terrywbrady/info
 +++
 
 ### Format
+/ResourcePath/Region/Size/Rotation/Quality.**Format**
 
 - jpg
 - png
@@ -235,12 +242,15 @@ IIIF viewers render the contents of a manifest.
 
 ### IIIF Presentation Terminology
 
-- **Manifest** - describes what is being presented such as a picture or a book |
-- **Sequence** - describes a sequence of images to present |
-- **Canvas** - the image to present |
+- Manifest 
+  - describes what is being presented such as a picture or a book 
+- Sequence |
+   - describes a sequence of images to present 
+- Canvas |
+   - the image to present 
 - Advanced Features |
-  - **Layer** (image overlays, annotations)
-  - **Collection** (present a group of manifests)
+  - Layer (image overlays, annotations)
+  - Collection (present a group of manifests)
 
 +++
 
@@ -318,9 +328,10 @@ Viewers with an awareness of the IIIF Standard
 ### Sample Images
 
 - [https://github.com/terrywbrady/iiif-seajug/tree/master/sample-images](https://github.com/terrywbrady/iiif-seajug/tree/master/sample-images)
-![lily1.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg) <!-- .element: style="width: 30%" -->
-![lily2.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily2.jpg) <!-- .element: style="width: 30%" -->
-![lily3.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily3.jpg) <!-- .element: style="width: 30%" -->
+
+![lily1.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg) <!-- .element: style="width: 25%" -->
+![lily2.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily2.jpg) <!-- .element: style="width: 25%" -->
+![lily3.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily3.jpg) <!-- .element: style="width: 25%" -->
 
 +++ 
 
@@ -340,8 +351,10 @@ Viewers with an awareness of the IIIF Standard
 
 - [Stanford Image Cropper](https://stanford.edu/~efisch17/iiif-tools/cropper/)
   - Sample image to crop
-    - https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg
-s---
+````  
+    - https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg.j
+    pg
+---
 
 ### DigitalGeorgetown Use Cases for IIIF
 
