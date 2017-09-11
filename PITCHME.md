@@ -169,6 +169,7 @@ A IIIF Server returns a JSON description of a resource
 - ucdlib:42220/**info.json**
 - [https://iiif.ucd.ie/loris/ucdlib:42220/info.json](https://iiif.ucd.ie/loris/ucdlib:42220/info.json)
   - 13401 x 9092 
+
 _Resource is courtesy of University College Dublin_
  
 +++
@@ -180,6 +181,7 @@ _Resource is courtesy of University College Dublin_
   - 36 MB
    - This will be slow to load
   - Note the "Castle" within the image
+
 _Resource is courtesy of University College Dublin_
  
 +++
@@ -187,6 +189,7 @@ _Resource is courtesy of University College Dublin_
 ### Sampling a Region from the Image (the "Castle")
   - ucdlib:42220/**1182,2883,3039,2741**/full/0/default.jpg
   - [https://iiif.ucd.ie/loris/ucdlib:42220/1182,2883,3039,2741/full/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/1182,2883,3039,2741/full/0/default.jpg) 
+
 _Resource is courtesy of University College Dublin_
 
 +++
@@ -198,6 +201,7 @@ _Resource is courtesy of University College Dublin_
 - Map of Dublin Scaled to 15% |
   - ucdlib:42220/full/**pct:15**/0/default.jpg
   - [https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/0/default.jpg)
+
 _Resource is courtesy of University College Dublin_
 
 +++
@@ -207,6 +211,7 @@ _Resource is courtesy of University College Dublin_
 - Map of Dublin Scaled to 15% and rotated 45 degrees
   - ucdlib:42220/full/pct:15/**45**/default.jpg
   - [https://iiif.ucd.ie/loris//ucdlib:42220/full/pct:15/45/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/45/default.jpg)
+
 _Resource is courtesy of University College Dublin_
 
 +++
@@ -230,12 +235,12 @@ IIIF viewers render the contents of a manifest.
 
 ### IIIF Presentation Terminology
 
-- Manifest - describes what is being presented such as a picture or a book |
-- Sequence - describes a sequence of images to present |
-- Canvas - the image to present |
+- **Manifest** - describes what is being presented such as a picture or a book |
+- **Sequence** - describes a sequence of images to present |
+- **Canvas** - the image to present |
 - Advanced Features |
-  - Layer (image overlays, annotations)
-  - Collection (present a group of manifests)
+  - **Layer** (image overlays, annotations)
+  - **Collection** (present a group of manifests)
 
 +++
 
@@ -313,9 +318,9 @@ Viewers with an awareness of the IIIF Standard
 ### Sample Images
 
 - [https://github.com/terrywbrady/iiif-seajug/tree/master/sample-images](https://github.com/terrywbrady/iiif-seajug/tree/master/sample-images)
-![lily1.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg)
-![lily2.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily2.jpg)
-![lily3.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily3.jpg)
+![lily1.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg) <!-- .element: style="width: 30%" -->
+![lily2.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily2.jpg) <!-- .element: style="width: 30%" -->
+![lily3.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily3.jpg) <!-- .element: style="width: 30%" -->
 
 +++ 
 
