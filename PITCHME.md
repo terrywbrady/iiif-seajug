@@ -8,12 +8,25 @@ https://github.com/terrywbrady/info
 
 ![](https://www.library.georgetown.edu/sites/default/files/library-logo.png)
 
+---
+
+### Overview
+- About Me
+- What is IIIF
+  - Image API - Rendering Options
+  - Presentation API - Presenting an image in context
+- Demo: Configure a IIIF Image Server
+
+---
+
+### About Me
+
 +++
 
 ### My Background - Georgetown
 
 ![Digital Georgetown Institutional Repository](https://repository.library.georgetown.edu/themes/ir//images/ir-logo.png)
-- Applications Programmer Analyst for the Georgetown University Library
+- Software Developer for the Georgetown University Library
   - Lead developer for [DigitalGeorgetown](https://repository.library.georgetown.edu)
 +++
 
@@ -23,33 +36,13 @@ https://github.com/terrywbrady/info
 - Developed software for corporations, non-profits, government and higher education
 - Java developer since 1999
 
----
-
-### IIIF: International Image Interoperability Framework
-
-![IIIF Icon](https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png)
-- [http://iiif.io](http://iiif.io)
-- Founded 2011
-- [About IIIF](http://iiif.io/about/)
-- [IIIF Benefits](http://iiif.io/community/faq/#what-is-iiif)
-
-+++
-
-### 4 API's
-
-[http://iiif.io/technical-details/](http://iiif.io/technical-details/)
-
-- Image API
-- Presentation API
-- Authentication API
-- Search API
 
 +++
 
 ### DigitalGeorgetown and IIIF
 
 - DigitalGeorgetown showcases unique digital collections and digitized assets from the Georgetown University Library
-- The IIIF Protocol promises to solve a number of challenges for our repository
+- The IIIF framework promises to solve a number of challenges for our repository
 - We are enthusiastic users of IIIF - not a contributor to the standard
 
 +++
@@ -65,35 +58,136 @@ https://github.com/terrywbrady/info
 
 ---
 
+### IIIF: International Image Interoperability Framework
+
+![IIIF Icon](https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png)
+- Founded 2011
+- [About IIIF](http://iiif.io/about/)
+
++++
+
+### 4 API's
+
+[http://iiif.io/technical-details/](http://iiif.io/technical-details/)
+
+- Image API
+- Presentation API
+- Authentication API
+- Search API
+
+---
+
 ### What is needed to use IIIF?
 
-- Images loaded into a [IIIF compliant server](http://iiif.io/apps-demos/#image-servers)
+- Images are made accessible to a [IIIF compliant server](http://iiif.io/apps-demos/#image-servers)
 - Creation of a "manifest" to present these images
 - Use of a [IIIF compliant viewer](http://iiif.io/apps-demos/#image-viewing-clients)
 - The magic is in the *interoperability* of these tools
 
+
 ---
 
 ### IIIF Image API
-- Using a map from University College Dublin rendered with IIIF...
+
+- Provides a rich set of options to retrieve an image
+  - Whole image or pixel coordinates
+  - Image Scaling
+  - Image Rotation
+- These options are provided by the URL
+
++++
+
+### Components of an IIIF Image URL
+
+- /ResourcePath/Region/Size/Rotation/Quality.Format
+
++++
+
+### Resource Path
+
+- Path to an image within an image server
+
++++
+
+### Region
+
+- "full"
+- x,y,w,h
+  - x,y pixel coordinates
+  - w,h width and height
+- other options exist
+
++++
+
+### Size
+
+- "full" or "max"
+- w,
+  - scaled to specific width
+- ,h
+  - scaled to specific height
+- pct:n
+  - scaled to specific percent
++++
+
+### Rotation
+
+- 0-360 (rotated)
+- !0-360 (mirrored and rotated)
+
++++
+
+### Quality
+
+- "color"
+- "gray"
+- "bitonal"
+- "default" - default value for a server
+
++++
+
+### Format
+
+- jpg
+- png
+- jp2
+- tif
+- other formats
+
++++
+
+### IIIF Metadata
+
+A IIIF Server returns a JSON description of a resource
+
+- /ResourcePath/info.json
+- JSON file indicates the features that a server supports
+
++++
+
+### Sample IIIF Image: Map of Dublin
+_Resource is courtesy of University College Dublin_
+
+- [https://iiif.ucd.ie/loris/ucdlib:42220/info.json](https://iiif.ucd.ie/loris/ucdlib:42220/info.json)
+  - 13401 x 9092 
+  - 36 MB
+- This will be slow to load
+
++++
+
+### Retrieving the full image
 - Map of Dublin (36 MB) 
   - [https://iiif.ucd.ie/loris/ucdlib:42220/full/full/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/full/0/default.jpg)
-  - 13401 x 9092 
-- IIIF Metadata for Image |
-  - [https://iiif.ucd.ie/loris/ucdlib:42220/info.json](https://iiif.ucd.ie/loris/ucdlib:42220/info.json)
-
+  - Note the "Castle" within the image
+ 
 +++
 
-### IIIF Image API - Sampling
-- Using a map from University College Dublin rendered with IIIF...
-- Map of Dublin Region - Selected Region 
+### Sampling a Region from the Image (the "Castle")
   - [https://iiif.ucd.ie/loris/ucdlib:42220/1182,2883,3039,2741/full/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/1182,2883,3039,2741/full/0/default.jpg) 
-  - This provides a standard way to cite image coordinates
 
 +++
 
-### IIIF Image API - Resizing
-- Using a map from University College Dublin rendered with IIIF...
+### Retrieving a Scaled Image of the Full Map
 - Map of Dublin Scaled to 800px Wide 
   - [https://iiif.ucd.ie/loris/ucdlib:42220/full/800,/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/800,/0/default.jpg)
 - Map of Dublin Scaled to 15% |
@@ -101,20 +195,18 @@ https://github.com/terrywbrady/info
 
 +++
 
-### IIIF Image API - Rotation
+### Map: Scaled and Rotated
 
-- Using a map from University College Dublin rendered with IIIF...
 - Map of Dublin Scaled to 15% and rotated 45 degrees
   - [https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/45/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/45/default.jpg)
 
 +++
 
-### Stanford Image Cropping Tool for IIIF compliant images
+### What can we do with this Image API?
 
-- [Stanford Image Cropper](https://stanford.edu/~efisch17/iiif-tools/cropper/)
-  - Example image from University College Dublin
-    - https://iiif.ucd.ie/loris/ucdlib:45924/full/full/0/default.jpg
-    
+- We will look at the IIIF Presentation API
+- View our image in a IIIF Compliant Viewer
+
 ---
 
 ### IIIF Presentation API
@@ -127,16 +219,28 @@ IIIF viewers render the contents of a manifest.
 
 +++
 
-### IIIF Manifest Editor
+### IIIF Presentation Terminology
 
-[Manifiest Editor from Oxford University](http://iiif.bodleian.ox.ac.uk/manifest-editor/#/?_k=ejb3xc)
+- Manifest - describes what is being presented such as a picture or a book
+- Sequence - describes a sequence of images to present
+- Canvas - the image to present
+- Advanced Features
+  - Layer (image overlays, annotations)
+  - Collection (present a group of manifests)
 
 +++
 
-### Sample Manifest
+### Sample Manifest File
 
-- [https://github.com/terrywbrady/iiif-seajug/blob/master/manifests/UCDublin-Manifest.json](https://github.com/terrywbrady/iiif-seajug/blob/master/manifests/UCDublin-Manifest.json)
-- [https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json)
++++?code=https://github.com/terrywbrady/iiif-seajug/blob/master/manifests/UCDublin-Manifest.json
+
++++
+
+### IIIF Manifest Editor
+
+- [Manifiest Editor from Oxford University](http://iiif.bodleian.ox.ac.uk/manifest-editor/#/?_k=ejb3xc)
+- Sample Manifest Source
+  - [https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json)
 
 ---
 
@@ -209,7 +313,14 @@ Viewers with an awareness of the IIIF Standard
 - Create a manifest
 - View the manifest
 
----
++++
+
+### Stanford Image Cropping Tool for IIIF compliant images
+
+- [Stanford Image Cropper](https://stanford.edu/~efisch17/iiif-tools/cropper/)
+  - Sample image to crop
+    - https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg
+s---
 
 ### DigitalGeorgetown Use Cases for IIIF
 
