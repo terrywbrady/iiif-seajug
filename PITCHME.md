@@ -10,14 +10,14 @@ https://github.com/terrywbrady/info
 
 +++
 
-## My Background - Georgetown
+### My Background - Georgetown
 
 ![Digital Georgetown Institutional Repository](https://repository.library.georgetown.edu/themes/ir//images/ir-logo.png)
 - Applications Programmer Analyst for the Georgetown University Library
   - Lead developer for [DigitalGeorgetown](https://repository.library.georgetown.edu)
 +++
 
-## My Background - Prior to Georgetown
+### My Background - Prior to Georgetown
 - LexisNexis: Metadata Management and Publishing Systems
 - National Archives and Records Administration: Digitization Systems
 - Developed software for corporations, non-profits, government and higher education
@@ -25,14 +25,17 @@ https://github.com/terrywbrady/info
 
 ---
 
-## IIIF: International Image Interoperability Framework
+### IIIF: International Image Interoperability Framework
 
 ![IIIF Icon](https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png)
 - [http://iiif.io](http://iiif.io)
+- Founded 2011
+- [About IIIF](http://iiif.io/about/)
+- [IIIF Benefits](http://iiif.io/community/faq/#what-is-iiif)
 
 +++
 
-## 4 API's
+### 4 API's
 
 [http://iiif.io/technical-details/](http://iiif.io/technical-details/)
 
@@ -43,7 +46,7 @@ https://github.com/terrywbrady/info
 
 +++
 
-## Digital Georgetown and IIIF
+### DigitalGeorgetown and IIIF
 
 - DigitalGeorgetown showcases unique digital collections and digitized assets from the Georgetown University Library
 - The IIIF Protocol promises to solve a number of challenges for our repository
@@ -51,7 +54,7 @@ https://github.com/terrywbrady/info
 
 +++
 
-## Digital Repository Challenges
+### Digital Repository Challenges
 
 - Provide low-resolution versions of images for low-bandwidth users
 - Provide high-resolution versions of images for interested users
@@ -62,7 +65,7 @@ https://github.com/terrywbrady/info
 
 ---
 
-## What is needed to use IIIF?
+### What is needed to use IIIF?
 
 - Images loaded into a [IIIF compliant server](http://iiif.io/apps-demos/#image-servers)
 - Creation of a "manifest" to present these images
@@ -71,7 +74,7 @@ https://github.com/terrywbrady/info
 
 ---
 
-## IIIF Image API
+### IIIF Image API
 - Using a map from University College Dublin rendered with IIIF...
 - Map of Dublin (36 MB) 
   - [https://iiif.ucd.ie/loris/ucdlib:42220/full/full/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/full/0/default.jpg)
@@ -81,7 +84,7 @@ https://github.com/terrywbrady/info
 
 +++
 
-## IIIF Image API - Sampling
+### IIIF Image API - Sampling
 - Using a map from University College Dublin rendered with IIIF...
 - Map of Dublin Region - Selected Region 
   - [https://iiif.ucd.ie/loris/ucdlib:42220/1182,2883,3039,2741/full/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/1182,2883,3039,2741/full/0/default.jpg) 
@@ -89,7 +92,7 @@ https://github.com/terrywbrady/info
 
 +++
 
-## IIIF Image API - Resizing
+### IIIF Image API - Resizing
 - Using a map from University College Dublin rendered with IIIF...
 - Map of Dublin Scaled to 800px Wide 
   - [https://iiif.ucd.ie/loris/ucdlib:42220/full/800,/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/800,/0/default.jpg)
@@ -98,7 +101,7 @@ https://github.com/terrywbrady/info
 
 +++
 
-## IIIF Image API - Rotation
+### IIIF Image API - Rotation
 
 - Using a map from University College Dublin rendered with IIIF...
 - Map of Dublin Scaled to 15% and rotated 45 degrees
@@ -106,7 +109,7 @@ https://github.com/terrywbrady/info
 
 +++
 
-## Stanford Image Cropping Tool for IIIF compliant images
+### Stanford Image Cropping Tool for IIIF compliant images
 
 - [Stanford Image Cropper](https://stanford.edu/~efisch17/iiif-tools/cropper/)
   - Example image from University College Dublin
@@ -114,7 +117,7 @@ https://github.com/terrywbrady/info
     
 ---
 
-## IIIF Presentation API
+### IIIF Presentation API
 
 [IIIF Presentation API](http://iiif.io/api/presentation/2.1/)
 
@@ -124,20 +127,20 @@ IIIF viewers render the contents of a manifest.
 
 +++
 
-## IIIF Manifest Editor
+### IIIF Manifest Editor
 
 [Manifiest Editor from Oxford University](http://iiif.bodleian.ox.ac.uk/manifest-editor/#/?_k=ejb3xc)
 
 +++
 
-## Sample Manifest
+### Sample Manifest
 
 - [https://github.com/terrywbrady/iiif-seajug/blob/master/manifests/UCDublin-Manifest.json](https://github.com/terrywbrady/iiif-seajug/blob/master/manifests/UCDublin-Manifest.json)
 - [https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json)
 
 ---
 
-## IIIF Viewers
+### IIIF Viewers
 
 Viewers with an awareness of the IIIF Standard
 
@@ -145,7 +148,7 @@ Viewers with an awareness of the IIIF Standard
 
 +++
 
-## Universal Viewer
+### Universal Viewer
 
 - [Universal Viewer](http://universalviewer.io)
   - If you do not supply a manifest, it randomly finds one to show off
@@ -153,7 +156,7 @@ Viewers with an awareness of the IIIF Standard
 
 +++
 
-## Mirador
+### Mirador
 
 - [Mirador](http://projectmirador.org)
   - [Mirador Advanced Features](http://projectmirador.org/demo/advanced_features.html)
@@ -161,13 +164,13 @@ Viewers with an awareness of the IIIF Standard
 
 ---
   
-## Other Demos
+### Other Demos
 
 [IIIF Demos](http://iiif.io/apps-demos/#implementation-demos) 
   
 ---
 
-## Demo - Configuring an Image Server
+### Demo - Configuring an Image Server
 
 - [Cantalope](https://medusa-project.github.io/cantaloupe/)
   - Java implementation of an image server
@@ -175,7 +178,7 @@ Viewers with an awareness of the IIIF Standard
   
 +++
   
-## Cantaloupe - Location of Source Images
+### Cantaloupe - Location of Source Images
 
 - Images are located with an "Image Resolver"
   - File System
@@ -187,7 +190,7 @@ Viewers with an awareness of the IIIF Standard
 
 +++ 
 
-## Sample Images
+### Sample Images
 
 - [https://github.com/terrywbrady/iiif-seajug/tree/master/sample-images](https://github.com/terrywbrady/iiif-seajug/tree/master/sample-images)
 - [https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg)
@@ -196,7 +199,7 @@ Viewers with an awareness of the IIIF Standard
 
 +++ 
 
-## Demo Tasks
+### Demo Tasks
 - Install Cantaloupe
 - Configure Cantaloupe to use an HttpResolver pointing at my github repo
 - Open server landing page
@@ -208,7 +211,7 @@ Viewers with an awareness of the IIIF Standard
 
 ---
 
-## DigitalGeorgetown Use Cases for IIIF
+### DigitalGeorgetown Use Cases for IIIF
 
 - Manuscript Viewing
 - High resolution image viewing
@@ -219,7 +222,7 @@ Viewers with an awareness of the IIIF Standard
 
 +++
 
-## Next Steps for DigitalGeorgetown
+### Next Steps for DigitalGeorgetown
 
 - Choose an image server
 - Prototype a manifest builder to extract metadata from [DSpace](http://dspace.org)
@@ -229,7 +232,7 @@ Viewers with an awareness of the IIIF Standard
 
 ---
 
-## Even More IIIF Resources
+### Even More IIIF Resources
 
 - [List of Awesome IIIF Resources](https://github.com/IIIF/awesome-iiif#tutorials)
 
