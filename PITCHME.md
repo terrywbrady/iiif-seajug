@@ -49,12 +49,12 @@ https://github.com/terrywbrady/info
 
 ### Digital Repository Challenges
 
-- Provide low-resolution versions of images for low-bandwidth users
-- Provide high-resolution versions of images for interested users
-- Allow scholars to create citations to specific images or regions of images
-- Simulating browsing of digitized manuscripts
-- Provide visual navigation across a collection of items with no logical "pagination"
-- Support the side by side comparison of historical objects
+- Provide low-resolution versions of images for low-bandwidth users |
+- Provide high-resolution versions of images for interested users |
+- Allow scholars to create citations to specific images or regions of images |
+- Simulating browsing of digitized manuscripts |
+- Provide visual navigation across a collection of items with no logical "pagination" |
+- Support the side by side comparison of historical objects |
 
 ---
 
@@ -175,7 +175,7 @@ _Resource is courtesy of University College Dublin_
 
 ### Retrieving the full image
 - Map of Dublin (36 MB) 
-  - ucdlib:42220/*full/full/0/default.jpg*
+  - ucdlib:42220/**full/full/0/default.jpg**
   - [...ucdlib:42220/full/full/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/full/0/default.jpg)
   - 36 MB
    - This will be slow to load
@@ -184,17 +184,17 @@ _Resource is courtesy of University College Dublin_
 +++
 
 ### Sampling a Region from the Image (the "Castle")
-  - ucdlib:42220/*1182,2883,3039,2741*/full/0/default.jpg
+  - ucdlib:42220/**1182,2883,3039,2741**/full/0/default.jpg
   - [...ucdlib:42220/1182,2883,3039,2741/full/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/1182,2883,3039,2741/full/0/default.jpg) 
 
 +++
 
 ### Retrieving a Scaled Image of the Full Map
 - Map of Dublin Scaled to 800px Wide 
-  - ucdlib:42220/full/*800,*/0/default.jpg
+  - ucdlib:42220/full/**800,**/0/default.jpg
   - [.../ucdlib:42220/full/800,/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/800,/0/default.jpg)
 - Map of Dublin Scaled to 15% |
-  - ucdlib:42220/full/*pct:15*/0/default.jpg
+  - ucdlib:42220/full/**ct:15**/0/default.jpg
   - [...ucdlib:42220/full/pct:15/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/0/default.jpg)
 
 +++
@@ -202,7 +202,7 @@ _Resource is courtesy of University College Dublin_
 ### Map: Scaled and Rotated
 
 - Map of Dublin Scaled to 15% and rotated 45 degrees
-  - ucdlib:42220/full/pct:15/*45*/default.jpg
+  - ucdlib:42220/full/pct:15/**45**/default.jpg
   - [.../ucdlib:42220/full/pct:15/45/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/45/default.jpg)
 
 +++
@@ -237,9 +237,12 @@ IIIF viewers render the contents of a manifest.
 
 ### Sample Manifest File
 
-- https://github.com/terrywbrady/iiif-seajug/blob/master/manifests/UCDublin-Manifest.json
+- [https://github.com/terrywbrady/iiif-seajug/blob/master/manifests/UCDublin-Manifest.json](https://github.com/terrywbrady/iiif-seajug/blob/master/manifests/UCDublin-Manifest.json)
 
 +++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json
+@5,7,9(Custom metadata for this presentation)
+@24-26(Image Label and Size)
+@34(Path to Image Resource)
 
 +++
 
