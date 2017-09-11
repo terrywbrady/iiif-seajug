@@ -166,10 +166,10 @@ A IIIF Server returns a JSON description of a resource
 +++
 
 ### Sample IIIF Image: Map of Dublin
-_Resource is courtesy of University College Dublin_
-
+- ucdlib:42220/**info.json**
 - [https://iiif.ucd.ie/loris/ucdlib:42220/info.json](https://iiif.ucd.ie/loris/ucdlib:42220/info.json)
   - 13401 x 9092 
+_Resource is courtesy of University College Dublin_
  
 +++
 
@@ -180,12 +180,14 @@ _Resource is courtesy of University College Dublin_
   - 36 MB
    - This will be slow to load
   - Note the "Castle" within the image
+_Resource is courtesy of University College Dublin_
  
 +++
 
 ### Sampling a Region from the Image (the "Castle")
   - ucdlib:42220/**1182,2883,3039,2741**/full/0/default.jpg
   - [https://iiif.ucd.ie/loris/ucdlib:42220/1182,2883,3039,2741/full/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/1182,2883,3039,2741/full/0/default.jpg) 
+_Resource is courtesy of University College Dublin_
 
 +++
 
@@ -196,6 +198,7 @@ _Resource is courtesy of University College Dublin_
 - Map of Dublin Scaled to 15% |
   - ucdlib:42220/full/**pct:15**/0/default.jpg
   - [https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/0/default.jpg)
+_Resource is courtesy of University College Dublin_
 
 +++
 
@@ -204,6 +207,7 @@ _Resource is courtesy of University College Dublin_
 - Map of Dublin Scaled to 15% and rotated 45 degrees
   - ucdlib:42220/full/pct:15/**45**/default.jpg
   - [https://iiif.ucd.ie/loris//ucdlib:42220/full/pct:15/45/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/45/default.jpg)
+_Resource is courtesy of University College Dublin_
 
 +++
 
@@ -250,7 +254,9 @@ IIIF viewers render the contents of a manifest.
 
 - [Manifiest Editor from Oxford University](http://iiif.bodleian.ox.ac.uk/manifest-editor/#/?_k=ejb3xc)
 - Sample Manifest Source
-  - [https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json)
+```
+  https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json
+```
 
 ---
 
@@ -274,7 +280,7 @@ Viewers with an awareness of the IIIF Standard
 
 - [Mirador](http://projectmirador.org)
   - [Mirador Advanced Features](http://projectmirador.org/demo/advanced_features.html)
-  - Imagine 2 institutions with fragments of a historical artifact - the viewer can join them together l)
+  - Imagine 2 institutions with fragments of a historical artifact - the viewer can join them together)
 
 ---
   
@@ -307,9 +313,9 @@ Viewers with an awareness of the IIIF Standard
 ### Sample Images
 
 - [https://github.com/terrywbrady/iiif-seajug/tree/master/sample-images](https://github.com/terrywbrady/iiif-seajug/tree/master/sample-images)
-- [https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg)
-- [https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily2.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily2.jpg)
-- [https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily3.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily3.jpg)
+![lily1.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg)
+![lily2.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily2.jpg)
+![lily3.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily3.jpg)
 
 +++ 
 
