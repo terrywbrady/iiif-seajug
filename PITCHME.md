@@ -170,35 +170,40 @@ _Resource is courtesy of University College Dublin_
 
 - [https://iiif.ucd.ie/loris/ucdlib:42220/info.json](https://iiif.ucd.ie/loris/ucdlib:42220/info.json)
   - 13401 x 9092 
-  - 36 MB
-- This will be slow to load
-
+ 
 +++
 
 ### Retrieving the full image
 - Map of Dublin (36 MB) 
-  - [https://iiif.ucd.ie/loris/ucdlib:42220/full/full/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/full/0/default.jpg)
+  - ucdlib:42220/*full/full/0/default.jpg*
+  - [...ucdlib:42220/full/full/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/full/0/default.jpg)
+  - 36 MB
+   - This will be slow to load
   - Note the "Castle" within the image
  
 +++
 
 ### Sampling a Region from the Image (the "Castle")
-  - [https://iiif.ucd.ie/loris/ucdlib:42220/1182,2883,3039,2741/full/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/1182,2883,3039,2741/full/0/default.jpg) 
+  - ucdlib:42220/*1182,2883,3039,2741*/full/0/default.jpg
+  - [...ucdlib:42220/1182,2883,3039,2741/full/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/1182,2883,3039,2741/full/0/default.jpg) 
 
 +++
 
 ### Retrieving a Scaled Image of the Full Map
 - Map of Dublin Scaled to 800px Wide 
-  - [https://iiif.ucd.ie/loris/ucdlib:42220/full/800,/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/800,/0/default.jpg)
+  - ucdlib:42220/full/*800,*/0/default.jpg
+  - [.../ucdlib:42220/full/800,/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/800,/0/default.jpg)
 - Map of Dublin Scaled to 15% |
-  - [https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/0/default.jpg)
+  - ucdlib:42220/full/*pct:15*/0/default.jpg
+  - [...ucdlib:42220/full/pct:15/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/0/default.jpg)
 
 +++
 
 ### Map: Scaled and Rotated
 
 - Map of Dublin Scaled to 15% and rotated 45 degrees
-  - [https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/45/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/45/default.jpg)
+  - ucdlib:42220/full/pct:15/*45*/default.jpg
+  - [.../ucdlib:42220/full/pct:15/45/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/45/default.jpg)
 
 +++
 
@@ -221,10 +226,10 @@ IIIF viewers render the contents of a manifest.
 
 ### IIIF Presentation Terminology
 
-- Manifest - describes what is being presented such as a picture or a book
-- Sequence - describes a sequence of images to present
-- Canvas - the image to present
-- Advanced Features
+- Manifest - describes what is being presented such as a picture or a book |
+- Sequence - describes a sequence of images to present |
+- Canvas - the image to present |
+- Advanced Features |
   - Layer (image overlays, annotations)
   - Collection (present a group of manifests)
 
@@ -232,7 +237,9 @@ IIIF viewers render the contents of a manifest.
 
 ### Sample Manifest File
 
-+++?code=https://github.com/terrywbrady/iiif-seajug/blob/master/manifests/UCDublin-Manifest.json
+- https://github.com/terrywbrady/iiif-seajug/blob/master/manifests/UCDublin-Manifest.json
+
++++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json
 
 +++
 
