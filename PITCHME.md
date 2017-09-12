@@ -413,8 +413,10 @@ http://universalviewer.io/uv.html?manifest=https://raw.githubusercontent.com/ter
 
 - Choose an image server |
 - Determine where to host high-resolution images |
-- Prototype a manifest builder to extract metadata from [DSpace](http://dspace.org) |
-- Prototype a manifest builder to extract metadata from [ArchivesSpace](http://archivesspace.org/) |
+- Prototype a manifest builder to extract metadata from DSpace |
+  - http://dspace.org
+- Prototype a manifest builder to extract metadata from ArchivesSpace |
+  - http://archivesspace.org/ 
 - Determine how to deploy and manage manifest files |
 - Calculate cost of hosting high-resolution images for user access |
 
