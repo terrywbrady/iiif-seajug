@@ -374,14 +374,14 @@ Run script: java ... -jar Cantaloupe-3.3.2.war
 +++
 
 ### Open Demo Image
-  - /iiif/2/lily1.jpg/full/full/0/default.jpg
+  - /iiif/2/**lily1.jpg**/full/full/0/default.jpg
 
 +++
 ### Other Image Tricks
 - Mirror the image
-  - /iiif/2/lily1.jpg/full/full/!0/default.jpg
+  - /iiif/2/lily1.jpg/full/full/**!0**/default.jpg
 - Show gray scale version
-  - /iiif/2/lily1.jpg/full/full/0/gray.jpg
+  - /iiif/2/lily1.jpg/full/full/0/**gray**.jpg
 
 +++
 
