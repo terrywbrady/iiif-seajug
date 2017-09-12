@@ -406,6 +406,8 @@ _The links in this manifest will change with each new Codenvy session_
 
 http://universalviewer.io/uv.html?manifest=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/lily-manifest.json
 
++++?video=https://youtu.be/6MzTzd5ufHg
+
 ---
 
 ### DigitalGeorgetown Use Cases for IIIF
