@@ -348,7 +348,7 @@ Viewers with an awareness of the IIIF Standard
 - Set resolver to HttpResolver
 - Set resolver prefix
 ```
-https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/
+raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/
 ```
 
 +++
@@ -370,7 +370,7 @@ https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/
 - [Manifiest Editor from Oxford University](http://iiif.bodleian.ox.ac.uk/manifest-editor/#/?_k=ejb3xc)
 - Sample Manifest Source
 ```
-  https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json
+raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json
 ```
 
 +++
