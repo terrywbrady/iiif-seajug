@@ -344,7 +344,7 @@ Installation script - download and unzip Cantaloupe
 
 Run script: java ... -jar Cantaloupe-3.3.2.war
 
-+++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/README.md?lang=markdown
++++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/README.md&lang=markdown
 @[19](Launch Command Name)
 @[22](Launch Script)
 @[25](Preview URL for localhost:8182)
@@ -356,7 +356,7 @@ Run script: java ... -jar Cantaloupe-3.3.2.war
 - File resolver is configured for Codenvy
 - Admin page is enabled.
 
-+++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/Cantaloupe-3.3.2/cantaloupe.properties?lang=ini
++++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/Cantaloupe-3.3.2/cantaloupe.properties&lang=ini
 @[110](FilesystemResolver enabled)
 @[130](FilesystemResolver set for Codenvy)
 
