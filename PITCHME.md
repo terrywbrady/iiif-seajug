@@ -263,15 +263,6 @@ IIIF viewers render the contents of a manifest.
 @[24-26](Image Label and Size)
 @[34](Path to Image Resource)
 
-+++
-
-### IIIF Manifest Editor
-
-- [Manifiest Editor from Oxford University](http://iiif.bodleian.ox.ac.uk/manifest-editor/#/?_k=ejb3xc)
-- Sample Manifest Source
-```
-  https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json
-```
 
 ---
 
@@ -335,15 +326,35 @@ Viewers with an awareness of the IIIF Standard
 
 +++ 
 
-### Demo Tasks
-- Install Cantaloupe
-- Configure Cantaloupe to use an HttpResolver pointing at my github repo
-- Open server landing page
-- Open an image
-  - /iiif/2/lily1.jpg/info.json
+### Demo: Install Cantaloupe
+
++++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/install.sh
+
++++
+
+### Server Config
+
+- File resolver is configured for Codenvy
+- Admin page is enabled.
+
++++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/Cantaloupe-3.3.2/cantaloupe.properties
+@[110](FilesystemResolver enabled)
+@[130](FilesystemResolver set for Codenvy)
+
++++
+
+### Demo: Configure Cantaloupe to use an HttpResolver pointing at my github repo
+- Open /admin link
+- Set resolver to HttpResolver
+- Set resolver prefix
+```
+https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/
+```
+
++++
+
+### Open Demo Image
   - /iiif/2/lily1.jpg/full/full/0/default.jpg
-- Create a manifest
-- View the manifest
 
 +++
 
@@ -351,9 +362,29 @@ Viewers with an awareness of the IIIF Standard
 
 - [Stanford Image Cropper](https://stanford.edu/~efisch17/iiif-tools/cropper/)
   - Sample image to crop
-````  
-    - https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg.j
-    pg
+
++++
+
+### IIIF Manifest Editor
+
+- [Manifiest Editor from Oxford University](http://iiif.bodleian.ox.ac.uk/manifest-editor/#/?_k=ejb3xc)
+- Sample Manifest Source
+```
+  https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json
+```
+
++++
+
+### IIIF Manifest - Create a New Manifest
+
+- lily1.jpg/info.json
+- lily2.jpg/info.json
+- lily3.jpg/info.json
+
++++
+
+### Open Manifest with Universal Viewer
+
 ---
 
 ### DigitalGeorgetown Use Cases for IIIF
@@ -369,11 +400,12 @@ Viewers with an awareness of the IIIF Standard
 
 ### Next Steps for DigitalGeorgetown
 
-- Choose an image server
-- Prototype a manifest builder to extract metadata from [DSpace](http://dspace.org)
-- Prototype a manifest builder to extract metadata from [ArchivesSpace](http://archivesspace.org/)
-- Determine how to deploy and manage manifest files
-- Calculate cost of hosting high-resolution images for user access
+- Choose an image server |
+- Determine where to host high-resolution images |
+- Prototype a manifest builder to extract metadata from [DSpace](http://dspace.org) |
+- Prototype a manifest builder to extract metadata from [ArchivesSpace](http://archivesspace.org/) |
+- Determine how to deploy and manage manifest files |
+- Calculate cost of hosting high-resolution images for user access |
 
 ---
 
