@@ -1,9 +1,9 @@
 
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "http://98fe3a02-0589-4cfe-bd4d-d9510d073ca5",
+	"@id": "http://ecc3e839-1bd5-41d9-821e-4ef547f570ea",
 	"@type": "sc:Manifest",
-	"label": "[Click to edit label]",
+	"label": "Seajug demo",
 	"metadata": [],
 	"description": [
 		{
@@ -15,7 +15,7 @@
 	"attribution": "[Click to edit attribution]",
 	"sequences": [
 		{
-			"@id": "http://0d17c80a-e136-4f92-b436-ebc04158b963",
+			"@id": "http://662f01a1-dfe0-4fdb-8ccc-9e14edbc2f19",
 			"@type": "sc:Sequence",
 			"label": [
 				{
@@ -25,7 +25,7 @@
 			],
 			"canvases": [
 				{
-					"@id": "http://680534fd-4784-44fd-84ab-2fc2c106e7bc",
+					"@id": "http://e3eee5bc-48c4-4d88-9bd9-dd3633be94ac",
 					"@type": "sc:Canvas",
 					"label": "Empty canvas",
 					"height": 1536,
@@ -33,7 +33,7 @@
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://77c475c7-736a-4743-b005-4a0dd74ac335",
+							"@id": "http://3517acb8-5786-4239-af1f-c39d6e310339",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
@@ -47,8 +47,8 @@
 										"http://iiif.io/api/image/2/level2.json",
 										{
 											"formats": [
-												"jpg",
 												"tif",
+												"jpg",
 												"gif",
 												"png"
 											],
@@ -72,8 +72,8 @@
 												"sizeByPct",
 												"jsonldMediaType",
 												"regionByPct",
-												"rotationArbitrary",
 												"sizeByH",
+												"rotationArbitrary",
 												"baseUriRedirect",
 												"rotationBy90s",
 												"profileLinkHeader",
@@ -87,12 +87,12 @@
 								"height": 1536,
 								"width": 2048
 							},
-							"on": "http://680534fd-4784-44fd-84ab-2fc2c106e7bc"
+							"on": "http://e3eee5bc-48c4-4d88-9bd9-dd3633be94ac"
 						}
 					]
 				},
 				{
-					"@id": "http://d05790ac-9db5-4dbd-aafe-4b1662063091",
+					"@id": "http://a4ddc6e9-5077-4970-8859-cdea84ccbad2",
 					"@type": "sc:Canvas",
 					"label": "Empty canvas",
 					"height": 2448,
@@ -100,7 +100,7 @@
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://44ed1c5c-9a34-450e-83c8-3d76192aefb3",
+							"@id": "http://b5cbfbcf-ced7-4b7e-acd7-a17034e5a3f7",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
@@ -114,8 +114,8 @@
 										"http://iiif.io/api/image/2/level2.json",
 										{
 											"formats": [
-												"jpg",
 												"tif",
+												"jpg",
 												"gif",
 												"png"
 											],
@@ -139,8 +139,8 @@
 												"sizeByPct",
 												"jsonldMediaType",
 												"regionByPct",
-												"rotationArbitrary",
 												"sizeByH",
+												"rotationArbitrary",
 												"baseUriRedirect",
 												"rotationBy90s",
 												"profileLinkHeader",
@@ -154,12 +154,12 @@
 								"height": 2448,
 								"width": 3264
 							},
-							"on": "http://d05790ac-9db5-4dbd-aafe-4b1662063091"
+							"on": "http://a4ddc6e9-5077-4970-8859-cdea84ccbad2"
 						}
 					]
 				},
 				{
-					"@id": "http://911cee08-dbb8-4d68-9957-c364aa19df0d",
+					"@id": "http://5f696ef2-266f-4cc2-af21-12ee2a188d65",
 					"@type": "sc:Canvas",
 					"label": "Empty canvas",
 					"height": 2448,
@@ -167,7 +167,7 @@
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://63839880-5ca3-4a3c-8367-2d2328aa9490",
+							"@id": "http://dc057317-1186-4ad6-8662-2dbfe732cb20",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
@@ -181,8 +181,8 @@
 										"http://iiif.io/api/image/2/level2.json",
 										{
 											"formats": [
-												"jpg",
 												"tif",
+												"jpg",
 												"gif",
 												"png"
 											],
@@ -206,8 +206,8 @@
 												"sizeByPct",
 												"jsonldMediaType",
 												"regionByPct",
-												"rotationArbitrary",
 												"sizeByH",
+												"rotationArbitrary",
 												"baseUriRedirect",
 												"rotationBy90s",
 												"profileLinkHeader",
@@ -221,7 +221,7 @@
 								"height": 2448,
 								"width": 3264
 							},
-							"on": "http://911cee08-dbb8-4d68-9957-c364aa19df0d"
+							"on": "http://5f696ef2-266f-4cc2-af21-12ee2a188d65"
 						}
 					]
 				}
