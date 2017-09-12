@@ -355,6 +355,7 @@ Viewers with an awareness of the IIIF Standard
 
 ### Open Demo Image
   - /iiif/2/lily1.jpg/full/full/0/default.jpg
+  - /iiif/2/lily1.jpg/full/full/0/gray.jpg
 
 +++
 
@@ -377,23 +378,33 @@ Viewers with an awareness of the IIIF Standard
 
 ### IIIF Manifest - Create a New Manifest
 
-- lily1.jpg/info.json
-- lily2.jpg/info.json
-- lily3.jpg/info.json
+- /iiif/2/lily1.jpg/info.json
+- /iiif/2/lily2.jpg/info.json
+- /iiif/2/lily3.jpg/info.json
+
++++
+
+### Save the manifest
+
+https://github.com/terrywbrady/iiif-seajug/blob/master/manifests/lily-manifest.json
+
+_The links in this manifest will change with each new Codenvy session_
 
 +++
 
 ### Open Manifest with Universal Viewer
 
+http://universalviewer.io/uv.html?manifest=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/lily-manifest.json
+
 ---
 
 ### DigitalGeorgetown Use Cases for IIIF
 
-- Manuscript Viewing
-- High resolution image viewing
-- View a collection of related images
-- View a collection of related objects (images and documents)
-- View a collection of related objects described in an archival system
+- Manuscript Viewing |
+- High resolution image viewing |
+- View a collection of related images |
+- View a collection of related objects (images and documents) |
+- View a collection of related objects described in an archival system |
   - Convert an [encoded archival description](https://www.loc.gov/ead/) into a manifest
 
 +++
@@ -413,4 +424,14 @@ Viewers with an awareness of the IIIF Standard
 
 - [List of Awesome IIIF Resources](https://github.com/IIIF/awesome-iiif#tutorials)
 
-  
+---
+
+### Thank You!  
+
+Terry Brady
+
+Georgetown University Library
+
+https://github.com/terrywbrady/info
+
+![](https://www.library.georgetown.edu/sites/default/files/library-logo.png)
