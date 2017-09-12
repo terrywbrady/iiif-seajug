@@ -266,7 +266,7 @@ IIIF viewers render the contents of a manifest.
 
 - [https://github.com/terrywbrady/iiif-seajug/blob/master/manifests/UCDublin-Manifest.json](https://github.com/terrywbrady/iiif-seajug/blob/master/manifests/UCDublin-Manifest.json)
 
-+++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json
++++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/UCDublin-Manifest.json&lang=json
 @[5,7,9](Custom metadata for this presentation)
 @[24-26](Image Label and Size)
 @[34](Path to Image Resource)
@@ -336,11 +336,11 @@ Viewers with an awareness of the IIIF Standard
   - sample images
   - sample manifest
 
-+++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/install.sh
++++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/install.sh&lang=bash
 
 Installation script - download and unzip Cantaloupe
 
-+++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/run.sh
++++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/run.sh&lang=bash
 
 Run script: java ... -jar Cantaloupe-3.3.2.war
 
