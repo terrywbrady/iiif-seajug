@@ -1,231 +1,231 @@
 {
-@context: "http://iiif.io/api/presentation/2/context.json",
-@id: "http://3e35d471-b3bd-4938-b083-194722e65362",
-@type: "sc:Manifest",
-label: "[Click to edit label]",
-metadata: [ ],
-description: [
-{
-@value: "[Click to edit description]",
-@language: "en"
-}
-],
-license: "https://creativecommons.org/licenses/by/3.0/",
-attribution: "[Click to edit attribution]",
-sequences: [
-{
-@id: "http://e436b681-b5ea-4f59-a7d9-62e9ddbdaac9",
-@type: "sc:Sequence",
-label: [
-{
-@value: "Normal Sequence",
-@language: "en"
-}
-],
-canvases: [
-{
-@id: "http://3bff1898-6cec-4673-af42-5365fed3f5ce",
-@type: "sc:Canvas",
-label: "Empty canvas",
-height: 1536,
-width: 2048,
-images: [
-{
-@context: "http://iiif.io/api/presentation/2/context.json",
-@id: "http://3c4ba7d3-1569-4491-8f42-6d438ed912aa",
-@type: "oa:Annotation",
-motivation: "sc:painting",
-resource: {
-@id: "http://node23.codenvy.io:33964/iiif/2/lily1.jpg/full/full/0/default.jpg",
-@type: "dctypes:Image",
-format: "image/jpeg",
-service: {
-@context: "http://iiif.io/api/image/2/context.json",
-@id: "http://node23.codenvy.io:33964/iiif/2/lily1.jpg",
-profile: [
-"http://iiif.io/api/image/2/level2.json",
-{
-formats: [
-"tif",
-"jpg",
-"gif",
-"png"
-],
-maxArea: 400000000,
-qualities: [
-"bitonal",
-"default",
-"gray",
-"color"
-],
-supports: [
-"regionByPx",
-"sizeByW",
-"sizeByWhListed",
-"cors",
-"regionSquare",
-"sizeByDistortedWh",
-"sizeAboveFull",
-"canonicalLinkHeader",
-"sizeByConfinedWh",
-"sizeByPct",
-"jsonldMediaType",
-"regionByPct",
-"sizeByH",
-"rotationArbitrary",
-"baseUriRedirect",
-"rotationBy90s",
-"profileLinkHeader",
-"sizeByForcedWh",
-"sizeByWh",
-"mirroring"
-]
-}
-]
-},
-height: 1536,
-width: 2048
-},
-on: "http://3bff1898-6cec-4673-af42-5365fed3f5ce"
-}
-]
-},
-{
-@id: "http://800b0ba4-33a4-4a80-bae1-b387d02ecf2c",
-@type: "sc:Canvas",
-label: "Empty canvas",
-height: 2448,
-width: 3264,
-images: [
-{
-@context: "http://iiif.io/api/presentation/2/context.json",
-@id: "http://77ab80c8-b65f-40ad-859b-effc1584d9cf",
-@type: "oa:Annotation",
-motivation: "sc:painting",
-resource: {
-@id: "http://node23.codenvy.io:33964/iiif/2/lily2.jpg/full/full/0/default.jpg",
-@type: "dctypes:Image",
-format: "image/jpeg",
-service: {
-@context: "http://iiif.io/api/image/2/context.json",
-@id: "http://node23.codenvy.io:33964/iiif/2/lily2.jpg",
-profile: [
-"http://iiif.io/api/image/2/level2.json",
-{
-formats: [
-"tif",
-"jpg",
-"gif",
-"png"
-],
-maxArea: 400000000,
-qualities: [
-"bitonal",
-"default",
-"gray",
-"color"
-],
-supports: [
-"regionByPx",
-"sizeByW",
-"sizeByWhListed",
-"cors",
-"regionSquare",
-"sizeByDistortedWh",
-"sizeAboveFull",
-"canonicalLinkHeader",
-"sizeByConfinedWh",
-"sizeByPct",
-"jsonldMediaType",
-"regionByPct",
-"sizeByH",
-"rotationArbitrary",
-"baseUriRedirect",
-"rotationBy90s",
-"profileLinkHeader",
-"sizeByForcedWh",
-"sizeByWh",
-"mirroring"
-]
-}
-]
-},
-height: 2448,
-width: 3264
-},
-on: "http://800b0ba4-33a4-4a80-bae1-b387d02ecf2c"
-}
-]
-},
-{
-@id: "http://3022be80-4d37-4ba9-9d58-b86e749fba89",
-@type: "sc:Canvas",
-label: "Empty canvas",
-height: 2448,
-width: 3264,
-images: [
-{
-@context: "http://iiif.io/api/presentation/2/context.json",
-@id: "http://37eed89d-aed6-47ab-a78a-3de9bd632845",
-@type: "oa:Annotation",
-motivation: "sc:painting",
-resource: {
-@id: "http://node23.codenvy.io:33964/iiif/2/lily3.jpg/full/full/0/default.jpg",
-@type: "dctypes:Image",
-format: "image/jpeg",
-service: {
-@context: "http://iiif.io/api/image/2/context.json",
-@id: "http://node23.codenvy.io:33964/iiif/2/lily3.jpg",
-profile: [
-"http://iiif.io/api/image/2/level2.json",
-{
-formats: [
-"tif",
-"jpg",
-"gif",
-"png"
-],
-maxArea: 400000000,
-qualities: [
-"bitonal",
-"default",
-"gray",
-"color"
-],
-supports: [
-"regionByPx",
-"sizeByW",
-"sizeByWhListed",
-"cors",
-"regionSquare",
-"sizeByDistortedWh",
-"sizeAboveFull",
-"canonicalLinkHeader",
-"sizeByConfinedWh",
-"sizeByPct",
-"jsonldMediaType",
-"regionByPct",
-"sizeByH",
-"rotationArbitrary",
-"baseUriRedirect",
-"rotationBy90s",
-"profileLinkHeader",
-"sizeByForcedWh",
-"sizeByWh",
-"mirroring"
-]
-}
-]
-},
-height: 2448,
-width: 3264
-},
-on: "http://3022be80-4d37-4ba9-9d58-b86e749fba89"
-}
-]
-}
-]
-}
-],
-structures: [ ]
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://3e35d471-b3bd-4938-b083-194722e65362",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://e436b681-b5ea-4f59-a7d9-62e9ddbdaac9",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://3bff1898-6cec-4673-af42-5365fed3f5ce",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1536,
+					"width": 2048,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://3c4ba7d3-1569-4491-8f42-6d438ed912aa",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://node23.codenvy.io:33964/iiif/2/lily1.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://node23.codenvy.io:33964/iiif/2/lily1.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"sizeByH",
+												"rotationArbitrary",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1536,
+								"width": 2048
+							},
+							"on": "http://3bff1898-6cec-4673-af42-5365fed3f5ce"
+						}
+					]
+				},
+				{
+					"@id": "http://800b0ba4-33a4-4a80-bae1-b387d02ecf2c",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 2448,
+					"width": 3264,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://77ab80c8-b65f-40ad-859b-effc1584d9cf",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://node23.codenvy.io:33964/iiif/2/lily2.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://node23.codenvy.io:33964/iiif/2/lily2.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"sizeByH",
+												"rotationArbitrary",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2448,
+								"width": 3264
+							},
+							"on": "http://800b0ba4-33a4-4a80-bae1-b387d02ecf2c"
+						}
+					]
+				},
+				{
+					"@id": "http://3022be80-4d37-4ba9-9d58-b86e749fba89",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 2448,
+					"width": 3264,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://37eed89d-aed6-47ab-a78a-3de9bd632845",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://node23.codenvy.io:33964/iiif/2/lily3.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://node23.codenvy.io:33964/iiif/2/lily3.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"sizeByH",
+												"rotationArbitrary",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2448,
+								"width": 3264
+							},
+							"on": "http://3022be80-4d37-4ba9-9d58-b86e749fba89"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": []
 }
