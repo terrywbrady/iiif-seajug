@@ -338,7 +338,11 @@ Viewers with an awareness of the IIIF Standard
 
 +++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/install.sh
 
+Installation script - download and unzip Cantaloupe
+
 +++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/run.sh
+
+Run script: java ... -jar Cantaloupe-3.3.2.war
 
 +++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/README.md
 @[15-16](Configure Codenvy to launch Cantaloupe)
@@ -371,6 +375,12 @@ Viewers with an awareness of the IIIF Standard
 
 ### Open Demo Image
   - /iiif/2/lily1.jpg/full/full/0/default.jpg
+
++++
+### Other Image Tricks
+- Mirror the image
+  - /iiif/2/lily1.jpg/full/full/!0/default.jpg
+- Show gray scale version
   - /iiif/2/lily1.jpg/full/full/0/gray.jpg
 
 +++
@@ -409,6 +419,8 @@ _The links in this manifest will change with each new Codenvy session_
 +++
 
 ### Open Manifest with Universal Viewer
+
+_Note: the Cantaloupe server must be running in order to view this manifest file_
 
 http://universalviewer.io/uv.html?manifest=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/lily-manifest.json
 
