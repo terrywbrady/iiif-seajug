@@ -304,11 +304,19 @@ Viewers with an awareness of the IIIF Standard
   
 ---
 
+### Demo Environment: Codenvy
+
+- VM running on [Codenvy](codenvy.com)
+- Runs [Eclipse Che](http://www.eclipse.org/che/)
+
++++
+
 ### Demo - Configuring an Image Server
 
 - [Cantalope](https://medusa-project.github.io/cantaloupe/)
   - Java implementation of an image server
   - Quick an easy to configure
+  - Image server on localhost:8182 will be available as node**XX**.codenvy.io:**YYYYY**
   
 +++
   
@@ -324,17 +332,14 @@ Viewers with an awareness of the IIIF Standard
 
 +++ 
 
-### Sample Images
+### Demo Resources
 
-- [https://github.com/terrywbrady/iiif-seajug/tree/master/sample-images](https://github.com/terrywbrady/iiif-seajug/tree/master/sample-images)
-
-![lily1.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg) <!-- .element: style="width: 25%" -->
-![lily2.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily2.jpg) <!-- .element: style="width: 25%" -->
-![lily3.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily3.jpg) <!-- .element: style="width: 25%" -->
-
-+++ 
-
-### Demo: Install Cantaloupe
+- Availabe on GitHub: http://github.com/terrywbrady/iiif-seajug
+  - install script
+  - run script
+  - default server config
+  - sample images
+  - sample manifest
 
 +++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/install.sh
 
@@ -360,6 +365,26 @@ Run script: java ... -jar Cantaloupe-3.3.2.war
 +++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/Cantaloupe-3.3.2/cantaloupe.properties
 @[110](FilesystemResolver enabled)
 @[130](FilesystemResolver set for Codenvy)
+
++++ 
+
+### Sample Images
+
+- [https://github.com/terrywbrady/iiif-seajug/tree/master/sample-images](https://github.com/terrywbrady/iiif-seajug/tree/master/sample-images)
+
+![lily1.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily1.jpg) <!-- .element: style="width: 25%" -->
+![lily2.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily2.jpg) <!-- .element: style="width: 25%" -->
+![lily3.jpg](https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/sample-images/lily3.jpg) <!-- .element: style="width: 25%" -->
+
++++ 
+
+### Demo: Install the Cantaloupe IIIF Server
+- Install Cantaloupe |
+- Start Cantaloupe |
+- Open /admin, change image resolver |
+- Preview image |
+- Create a manifest |
+- View manifest |
 
 +++
 
