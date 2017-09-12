@@ -297,12 +297,6 @@ Viewers with an awareness of the IIIF Standard
   - Imagine 2 institutions with fragments of a historical artifact - the viewer can join them together)
 
 ---
-  
-### Other Demos
-
-[IIIF Demos](http://iiif.io/apps-demos/#implementation-demos) 
-  
----
 
 ### Demo Environment: Codenvy
 
@@ -316,7 +310,8 @@ Viewers with an awareness of the IIIF Standard
 - [Cantalope](https://medusa-project.github.io/cantaloupe/)
   - Java implementation of an image server
   - Quick an easy to configure
-  - Image server on localhost:8182 will be available as node**XX**.codenvy.io:**YYYYY**
+- Cantaloupe on localhost:8182 
+  - will be available as node**XX**.codenvy.io:**YYYYY**
   
 +++
   
@@ -349,8 +344,7 @@ Installation script - download and unzip Cantaloupe
 
 Run script: java ... -jar Cantaloupe-3.3.2.war
 
-+++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/README.md
-@[15-16](Configure Codenvy to launch Cantaloupe)
++++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/README.md?lang=markdown
 @[19](Launch Command Name)
 @[22](Launch Script)
 @[25](Preview URL for localhost:8182)
@@ -362,7 +356,7 @@ Run script: java ... -jar Cantaloupe-3.3.2.war
 - File resolver is configured for Codenvy
 - Admin page is enabled.
 
-+++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/Cantaloupe-3.3.2/cantaloupe.properties
++++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/Cantaloupe-3.3.2/cantaloupe.properties?lang=ini
 @[110](FilesystemResolver enabled)
 @[130](FilesystemResolver set for Codenvy)
 
