@@ -340,6 +340,12 @@ Viewers with an awareness of the IIIF Standard
 
 +++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/run.sh
 
++++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/README.md
+@[15-16](Configure Codenvy to launch Cantaloupe)
+@[19](Launch Command Name)
+@[22](Launch Script)
+@[25](Preview URL for localhost:8182)
+
 +++
 
 ### Server Config
@@ -406,7 +412,7 @@ _The links in this manifest will change with each new Codenvy session_
 
 http://universalviewer.io/uv.html?manifest=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/manifests/lily-manifest.json
 
-+++?video=https://youtu.be/6MzTzd5ufHg
++++?video=https://www.youtube.com/embed/6MzTzd5ufHg
 
 ---
 
