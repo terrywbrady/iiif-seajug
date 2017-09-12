@@ -1,6 +1,7 @@
+
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "http://3e35d471-b3bd-4938-b083-194722e65362",
+	"@id": "http://98fe3a02-0589-4cfe-bd4d-d9510d073ca5",
 	"@type": "sc:Manifest",
 	"label": "[Click to edit label]",
 	"metadata": [],
@@ -14,7 +15,7 @@
 	"attribution": "[Click to edit attribution]",
 	"sequences": [
 		{
-			"@id": "http://e436b681-b5ea-4f59-a7d9-62e9ddbdaac9",
+			"@id": "http://0d17c80a-e136-4f92-b436-ebc04158b963",
 			"@type": "sc:Sequence",
 			"label": [
 				{
@@ -24,7 +25,7 @@
 			],
 			"canvases": [
 				{
-					"@id": "http://3bff1898-6cec-4673-af42-5365fed3f5ce",
+					"@id": "http://680534fd-4784-44fd-84ab-2fc2c106e7bc",
 					"@type": "sc:Canvas",
 					"label": "Empty canvas",
 					"height": 1536,
@@ -32,7 +33,7 @@
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://3c4ba7d3-1569-4491-8f42-6d438ed912aa",
+							"@id": "http://77c475c7-736a-4743-b005-4a0dd74ac335",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
@@ -46,8 +47,8 @@
 										"http://iiif.io/api/image/2/level2.json",
 										{
 											"formats": [
-												"tif",
 												"jpg",
+												"tif",
 												"gif",
 												"png"
 											],
@@ -71,8 +72,8 @@
 												"sizeByPct",
 												"jsonldMediaType",
 												"regionByPct",
-												"sizeByH",
 												"rotationArbitrary",
+												"sizeByH",
 												"baseUriRedirect",
 												"rotationBy90s",
 												"profileLinkHeader",
@@ -86,12 +87,12 @@
 								"height": 1536,
 								"width": 2048
 							},
-							"on": "http://3bff1898-6cec-4673-af42-5365fed3f5ce"
+							"on": "http://680534fd-4784-44fd-84ab-2fc2c106e7bc"
 						}
 					]
 				},
 				{
-					"@id": "http://800b0ba4-33a4-4a80-bae1-b387d02ecf2c",
+					"@id": "http://d05790ac-9db5-4dbd-aafe-4b1662063091",
 					"@type": "sc:Canvas",
 					"label": "Empty canvas",
 					"height": 2448,
@@ -99,7 +100,7 @@
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://77ab80c8-b65f-40ad-859b-effc1584d9cf",
+							"@id": "http://44ed1c5c-9a34-450e-83c8-3d76192aefb3",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
@@ -113,8 +114,8 @@
 										"http://iiif.io/api/image/2/level2.json",
 										{
 											"formats": [
-												"tif",
 												"jpg",
+												"tif",
 												"gif",
 												"png"
 											],
@@ -138,8 +139,8 @@
 												"sizeByPct",
 												"jsonldMediaType",
 												"regionByPct",
-												"sizeByH",
 												"rotationArbitrary",
+												"sizeByH",
 												"baseUriRedirect",
 												"rotationBy90s",
 												"profileLinkHeader",
@@ -153,12 +154,12 @@
 								"height": 2448,
 								"width": 3264
 							},
-							"on": "http://800b0ba4-33a4-4a80-bae1-b387d02ecf2c"
+							"on": "http://d05790ac-9db5-4dbd-aafe-4b1662063091"
 						}
 					]
 				},
 				{
-					"@id": "http://3022be80-4d37-4ba9-9d58-b86e749fba89",
+					"@id": "http://911cee08-dbb8-4d68-9957-c364aa19df0d",
 					"@type": "sc:Canvas",
 					"label": "Empty canvas",
 					"height": 2448,
@@ -166,7 +167,7 @@
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://37eed89d-aed6-47ab-a78a-3de9bd632845",
+							"@id": "http://63839880-5ca3-4a3c-8367-2d2328aa9490",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
@@ -180,8 +181,8 @@
 										"http://iiif.io/api/image/2/level2.json",
 										{
 											"formats": [
-												"tif",
 												"jpg",
+												"tif",
 												"gif",
 												"png"
 											],
@@ -205,8 +206,8 @@
 												"sizeByPct",
 												"jsonldMediaType",
 												"regionByPct",
-												"sizeByH",
 												"rotationArbitrary",
+												"sizeByH",
 												"baseUriRedirect",
 												"rotationBy90s",
 												"profileLinkHeader",
@@ -220,7 +221,7 @@
 								"height": 2448,
 								"width": 3264
 							},
-							"on": "http://3022be80-4d37-4ba9-9d58-b86e749fba89"
+							"on": "http://911cee08-dbb8-4d68-9957-c364aa19df0d"
 						}
 					]
 				}
