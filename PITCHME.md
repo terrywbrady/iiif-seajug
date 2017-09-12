@@ -168,7 +168,8 @@ https://github.com/terrywbrady/info
 A IIIF Server returns a JSON description of a resource
 
 - /ResourcePath/info.json
-- JSON file indicates the features that a server supports
+- Technical details about the image
+- Feature support within the server
 
 +++
 
@@ -204,7 +205,7 @@ _Resource is courtesy of University College Dublin_
 ### Retrieving a Scaled Image of the Full Map
 - Map of Dublin Scaled to 800px Wide 
   - ucdlib:42220/full/**800,**/0/default.jpg
-  - [https://iiif.ucd.ie/loris//ucdlib:42220/full/800,/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/800,/0/default.jpg)
+  - [https://iiif.ucd.ie/loris/ucdlib:42220/full/800,/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/800,/0/default.jpg)
 - Map of Dublin Scaled to 15% |
   - ucdlib:42220/full/**pct:15**/0/default.jpg
   - [https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/0/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/0/default.jpg)
@@ -217,9 +218,15 @@ _Resource is courtesy of University College Dublin_
 
 - Map of Dublin Scaled to 15% and rotated 45 degrees
   - ucdlib:42220/full/pct:15/**45**/default.jpg
-  - [https://iiif.ucd.ie/loris//ucdlib:42220/full/pct:15/45/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/45/default.jpg)
+  - [https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/45/default.jpg](https://iiif.ucd.ie/loris/ucdlib:42220/full/pct:15/45/default.jpg)
 
 _Resource is courtesy of University College Dublin_
+
++++
+
+### Image API is Useful
+
+What can we do with this API? 
 
 +++
 
@@ -246,6 +253,7 @@ IIIF viewers render the contents of a manifest.
   - describes what is being presented such as a picture or a book 
 - Sequence |
    - describes a sequence of images to present 
+   - can support multiple navigation schemes
 - Canvas |
    - the image to present 
 - Advanced Features |
@@ -330,6 +338,8 @@ Viewers with an awareness of the IIIF Standard
 
 +++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/install.sh
 
++++?code=https://raw.githubusercontent.com/terrywbrady/iiif-seajug/master/install/run.sh
+
 +++
 
 ### Server Config
@@ -413,10 +423,8 @@ http://universalviewer.io/uv.html?manifest=https://raw.githubusercontent.com/ter
 
 - Choose an image server |
 - Determine where to host high-resolution images |
-- Prototype a manifest builder to extract metadata from DSpace |
-  - http://dspace.org
-- Prototype a manifest builder to extract metadata from ArchivesSpace |
-  - http://archivesspace.org/ 
+- Prototype a manifest builder to extract metadata from Digital Repository |
+- Prototype a manifest builder to extract metadata from Archival Repository |
 - Determine how to deploy and manage manifest files |
 - Calculate cost of hosting high-resolution images for user access |
 
