@@ -445,7 +445,7 @@ http://universalviewer.io/uv.html?manifest=https://raw.githubusercontent.com/ter
 
 +++
 ### Demonstration of Cantaloupe Installation and Manifest Creation
-![Video](https://www.youtube.com/embed/6MzTzd5ufHg)
+![Video](https://www.youtube.com/embed/Xa56Mci5HzQ)
 
 ---
 
