@@ -294,22 +294,22 @@ Viewers with an awareness of the IIIF Standard
 
 - [Mirador](http://projectmirador.org)
   - [Mirador Advanced Features](http://projectmirador.org/demo/advanced_features.html)
-  - Imagine 2 institutions with fragments of a historical artifact - the viewer can join them together)
+  - Imagine two institutions with fragments of a historical artifact - the viewer can join them together)
 
 ---
 
 ### Demo Environment: Codenvy
 
-- VM running on [Codenvy](codenvy.com)
+- VM running on [Codenvy](http://codenvy.com)
 - Runs [Eclipse Che](http://www.eclipse.org/che/)
 
 +++
 
 ### Demo - Configuring an Image Server
 
-- [Cantalope](https://medusa-project.github.io/cantaloupe/)
+- [Cantaloupe](https://medusa-project.github.io/cantaloupe/)
   - Java implementation of an image server
-  - Quick an easy to configure
+  - Quick and easy to configure
 - Cantaloupe on localhost:8182 
   - will be available as node**XX**.codenvy.io:**YYYYY**
   
