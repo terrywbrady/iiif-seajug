@@ -37,12 +37,12 @@
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
-								"@id": "http://node23.codenvy.io:33964/iiif/2/lily1.jpg/full/full/0/default.jpg",
+								"@id": "http:///iiif/2/lily1.jpg/full/full/0/default.jpg",
 								"@type": "dctypes:Image",
 								"format": "image/jpeg",
 								"service": {
 									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://node23.codenvy.io:33964/iiif/2/lily1.jpg",
+									"@id": "http://http://node27.codenvy.io:44037/iiif/2/lily1.jpg",
 									"profile": [
 										"http://iiif.io/api/image/2/level2.json",
 										{
@@ -104,12 +104,12 @@
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
-								"@id": "http://node23.codenvy.io:33964/iiif/2/lily2.jpg/full/full/0/default.jpg",
+								"@id": "http://http://node27.codenvy.io:44037/iiif/2/lily2.jpg/full/full/0/default.jpg",
 								"@type": "dctypes:Image",
 								"format": "image/jpeg",
 								"service": {
 									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://node23.codenvy.io:33964/iiif/2/lily2.jpg",
+									"@id": "http://http://node27.codenvy.io:44037/iiif/2/lily2.jpg",
 									"profile": [
 										"http://iiif.io/api/image/2/level2.json",
 										{
@@ -171,12 +171,12 @@
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
-								"@id": "http://node23.codenvy.io:33964/iiif/2/lily3.jpg/full/full/0/default.jpg",
+								"@id": "http://http://node27.codenvy.io:44037/iiif/2/lily3.jpg/full/full/0/default.jpg",
 								"@type": "dctypes:Image",
 								"format": "image/jpeg",
 								"service": {
 									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://node23.codenvy.io:33964/iiif/2/lily3.jpg",
+									"@id": "http://http://node27.codenvy.io:44037/iiif/2/lily3.jpg",
 									"profile": [
 										"http://iiif.io/api/image/2/level2.json",
 										{
