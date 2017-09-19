@@ -37,7 +37,7 @@
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
-								"@id": "http:///iiif/2/lily1.jpg/full/full/0/default.jpg",
+								"@id": "http://node27.codenvy.io:44037/iiif/2/lily1.jpg/full/full/0/default.jpg",
 								"@type": "dctypes:Image",
 								"format": "image/jpeg",
 								"service": {
