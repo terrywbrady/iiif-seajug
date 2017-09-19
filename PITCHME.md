@@ -93,6 +93,8 @@ https://github.com/terrywbrady/info
   - Whole image or pixel coordinates
   - Image Scaling
   - Image Rotation
+  - Image Quality / Color
+  - Image Format
 - These options are provided by the URL
 
 +++
@@ -276,7 +278,7 @@ IIIF viewers render the contents of a manifest.
 
 ### IIIF Viewers
 
-Viewers with an awareness of the IIIF Standard
+Viewers with an awareness of the IIIF Standards
 
 - [Image Viewing Clients](http://iiif.io/apps-demos/#image-viewing-clients)
 
@@ -308,7 +310,7 @@ Viewers with an awareness of the IIIF Standard
 ### Demo - Configuring an Image Server
 
 - [Cantaloupe](https://medusa-project.github.io/cantaloupe/)
-  - Java implementation of an image server
+  - Java implementation of a IIIF image server
   - Quick and easy to configure
 - Cantaloupe on localhost:8182 
   - will be available as node**XX**.codenvy.io:**YYYYY**
@@ -348,6 +350,8 @@ Run script: java ... -jar Cantaloupe-3.3.2.war
 @[19](Launch Command Name)
 @[22](Launch Script)
 @[25](Preview URL for localhost:8182)
+
+Codenvy Launch Configuration
 
 +++
 
